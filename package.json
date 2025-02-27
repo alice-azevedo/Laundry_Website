@@ -1,0 +1,22 @@
+{
+  "name": "laundry_website",
+  "version": "1.0.0",
+  "description": "O projeto de um website que tem como objetivo auxiliar o gerenciamento de tarefas de uma lavanderia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alice-azevedo/Laundry_Website.git"
+  },
+  "keywords": [
+    "Lavanderia"
+  ],
+  "author": "Alice Arruda, Samuel Braga, Maria Eduarda Martins e Camila Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alice-azevedo/Laundry_Website/issues"
+  },
+  "homepage": "https://github.com/alice-azevedo/Laundry_Website#readme"
+}
