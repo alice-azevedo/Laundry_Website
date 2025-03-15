@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #E3E0FF;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #E3E0FF ;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#container-sessao {
+    display: flex;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.sessao-esquerda , .sessao-direita {
+    width: calc(50vw - 30px);
+    height: 80vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #6D9CCB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.sessao-esquerda {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    z-index: 1;
+}
+
+.sessao-direita {
+    height: 80vh;
+    margin-left: calc(50vw + 10px);
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.sessoes {
+    width: 100%;
+    min-height: calc(100vh - 140px);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #6D9CCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    scroll-snap-align: start;
+}
+
+button {
+    background-color: #3520D4;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2a1aa9;
+}
