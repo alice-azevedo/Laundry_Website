@@ -1,0 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #e3e0ff;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #e3e0ff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#container-sessao {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  height: 100%;
+}
+
+.sessao-esquerda,
+.sessao-direita {
+  width: calc(50vw - 30px);
+  height: 80vh;
+  box-sizing: border-box;
+  background-color: #6d9ccb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+.sessao-esquerda {
+  padding-top: 20px;
+}
+
+.sessao-direita {
+  height: 80vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.sessoes {
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #6d9ccb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+button {
+  background-color: #3520d4;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2a1aa9;
+}
