@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #e3e0ff;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #e3e0ff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#container-sessao {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  height: 100%;
+}
+
+.sessao-esquerda,
+.sessao-direita {
+  width: calc(50vw - 30px);
+  height: 80vh;
+  box-sizing: border-box;
+  background-color: #e3e0ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+.sessao-esquerda {
+  padding-top: 20px;
+}
+
+.sessao-direita {
+  height: 80vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.sessao-direita::-webkit-scrollbar {
+  width: 10px;
+}
+
+.interno-direito, .interno-esquerdo {
+  background-color: #6d9ccb;
+  width: calc(50vw - 50px);
+  border-radius: 10px;
+}
+
+.interno-direito {
+  height: 90vh;
+}
+
+.interno-esquerdo {
+  height: 57.5vh;
+}
+
+.sessoes {
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #e3e0ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+#login {
+  background-color: #6d9ccb;
+  height: 75vh;
+  width: 40vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 15vh;
+  border-radius: 25px;
+  padding-top: 30px;
+  display: grid;
+  place-items: center; 
+}
+
+#login {
+  background-color: #6d9ccb;
+  height: 70vh;  
+  width: 40vw;
+  margin: 10vh auto;
+  text-align: center;
+  border-radius: 25px;
+  align-items: start;
+  padding: 30px;
+}
+
+.instrucao {
+  align-self: center;
+  width: 30vw; 
+  padding: 15px;
+  color: #e3e0ff;
+  background-color: #3520d4;
+  border-radius: 15px;
+}
+
+label[for="senha"] {
+  color: white;
+  font-weight: bold;
+  grid-row: 2;
+  margin-top: 10px; 
+}
+
+#senha {
+  padding: 8px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+  grid-row: 3;
+  margin: 0 auto; 
+}
+
+button {
+  background-color: #3520d4;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2a1aa9;
+}
+
+
+#imagem-login {
+  height: 20vh;
+  width: 20vw;
+}
+
+#sessao-alterar, #sessao-clientes, #sessao-servicos {
+  height: 65vh;
+  width: 75vw;
+  background-color: #6d9ccb;
+  align-self: center;
+  margin: 10vh auto;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+#botao-voltar {
+  margin-left: 150px;
+}
+
+#botao-salvar {
+  margin-left: 825px;
+}
