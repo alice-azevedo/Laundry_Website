@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #22223b;
+  background: none;
+}
+
+.login-hero-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: radial-gradient(ellipse at 60% 30%, #e0e7ff 60%, #6d9ccb 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.novo-login {
+  background: rgba(255,255,255,0.98);
+  border-radius: 32px;
+  box-shadow: 0 12px 40px #6d9ccb55, 0 2px 8px #3520d422;
+  padding: 48px 38px 38px 38px;
+  max-width: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 28px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.novo-login::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(135deg, #6d9ccb 0%, #e0e7ff 100%);
+  opacity: 0.18;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.novo-login h1 {
+  font-size: 2.2rem;
+  color: #2a1aa9;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 0 6px 0;
+  text-shadow: 0 2px 12px #6d9ccb33, 0 1px 0 #fff;
+  z-index: 1;
+}
+
+.login-desc {
+  color: #3520d4;
+  background: #e0e7ff;
+  border-radius: 10px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  padding: 12px 0;
+  margin-bottom: 0;
+  box-shadow: 0 2px 8px #6d9ccb22;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  align-items: stretch;
+  z-index: 1;
+}
+
+.inp-login {
+  width: 100%;
+  padding: 15px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #b6c6e6;
+  font-size: 1.08rem;
+  background: #f8fafc;
+  color: #22223b;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #6d9ccb22;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.inp-login:focus {
+  border: 1.5px solid #3520d4;
+  outline: none;
+  box-shadow: 0 4px 16px #6d9ccb55;
+}
+
+.sub-login {
+  background: linear-gradient(90deg, #3520d4 60%, #6d9ccb 100%);
+  color: #fff;
+  font-weight: bold;
+  padding: 13px 0;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #6d9ccb33;
+  cursor: pointer;
+  font-size: 1.12rem;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.12s;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+.sub-login:hover {
+  background: linear-gradient(90deg, #2a1aa9 60%, #4e7bb7 100%);
+  box-shadow: 0 8px 24px #3520d433;
+  transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 500px) {
+  .novo-login {
+    padding: 18px 2vw;
+    max-width: 98vw;
+    border-radius: 18px;
+    gap: 18px;
+  }
+  .novo-login h1 {
+    font-size: 1.5rem;
+  }
+}
