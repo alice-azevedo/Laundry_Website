@@ -3,7 +3,7 @@ Um projeto da disciplina Fabrica  de Software I cujo o objetivo é desenvolver u
 
 <img src ="https://i.pinimg.com/736x/4a/fd/41/4afd4194d7a3514222bfe0432e362099.jpg">
 
-<h2> Funcionalidades ⚙ </h2>
+<h2> Funcionalidades </h2>
 
 Este projeto foi uma experiência incrível de aprendizado, desenvolvimento e trabalho em equipe. O cliente precisava de um sistema simples, moderno e que fosse fácil de usar, especialmente considerando que o sistema antigo utilizado por eles era datado da década de 1990. Nosso foco foi transformar todas as funcionalidades essenciais em algo leve, intuitivo e acessível para os donos da lavanderia, que são os usuários principais do sistema.
 
@@ -24,7 +24,7 @@ O website foi desenvolvido pensando exatamente nessas necessidades e destina-se 
 		O sistema também deve informar os colaboradores sobre pagamentos e devoluções dos produtos.
 
   
-<h2> ✨ Etapas do Projeto </h2>
+<h2> Etapas do Projeto </h2>
 
 * <h4> Levantamento de Requisitos </h4>
 A equipe realizou uma entrevista com o cliente para entender todas as suas necessidades. Essa fase foi essencial para garantir que o sistema final realmente atendesse às expectativas.
@@ -41,7 +41,7 @@ Utilizamos MySQL, gerenciado através do PHPMyAdmin, o que proporcionou um ambie
 * <h4> Testes e Melhorias Visuais </h4>
 Após a implementação das funcionalidades, toda a equipe participou ativamente dos testes, realizando ajustes de layout e melhorias de usabilidade, garantindo que o sistema ficasse visualmente agradável e funcional.
 
-<h2> 🛠️ Tecnologias Utilizadas </h2>
+<h2> Tecnologias Utilizadas </h2>
 
  * PHP (Linguagem de programação para o Back-End)
 
@@ -55,10 +55,10 @@ Após a implementação das funcionalidades, toda a equipe participou ativamente
 
  * XAMPP (Ambiente de desenvolvimento local com Apache, PHP e MySQL)
 
-<h2> 📌 Observações Importantes </h2>
+<h2> Observações Importantes </h2>
 Por se tratar de um projeto de início de curso, utilizamos linguagens e estruturas mais simples, porém, com total entendimento técnico de cada etapa. Nossa disciplina de Fábrica de Software seguirá até o final do curso, o que nos permitirá futuramente evoluir esse projeto com novos conceitos, melhores práticas e tecnologias mais avançadas. 
 
-<h2> 🙏 Agradecimentos </h2>
+<h2> Agradecimentos </h2>
 
 Gostaríamos de agradecer especialmente à nossa professora, pelos feedbacks valiosos e pelo acompanhamento durante todo o processo. Também agradecemos ao evento e a todos que puderam testar o sistema. Essa experiência nos mostrou que, mesmo sob pressão de prazos, conseguimos nos superar, aprender muito e entregar um resultado que trouxe satisfação ao cliente.
 Sem essa oportunidade que nos foi proporcionada e essa colaboração, não teríamos alcançado esse resultado tão positivo.
